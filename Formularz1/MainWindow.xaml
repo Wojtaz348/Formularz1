@@ -1,0 +1,34 @@
+﻿<Window x:Class="UserForm.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="User Data Form" Height="450" Width="400">
+    <Grid Margin="10">
+        <StackPanel>
+            <TextBlock Text="First Name:" />
+            <TextBox Name="FirstNameTextBox" />
+
+            <TextBlock Text="Last Name:" Margin="0,10,0,0" />
+            <TextBox Name="LastNameTextBox" />
+
+            <TextBlock Text="Age:" Margin="0,10,0,0" />
+            <TextBox Name="AgeTextBox" />
+
+            <TextBlock Text="Street Address:" Margin="0,10,0,0" />
+            <TextBox Name="StreetTextBox" />
+
+            <TextBlock Text="City:" Margin="0,10,0,0" />
+            <TextBox Name="CityTextBox" />
+
+            <TextBlock Text="Postal Code:" Margin="0,10,0,0" />
+            <TextBox Name="PostalCodeTextBox" />
+
+            <TextBlock Text="Phone Number:" Margin="0,10,0,0" />
+            <TextBox Name="PhoneNumberTextBox" Text="12313" />
+
+            <TextBlock Text="Email:" Margin="0,10,0,0" />
+            <TextBox Name="EmailTextBox" />
+
+            <Button Content="Submit" Click="SubmitButton_Click" Margin="0,20,0,0" Width="100"/>
+        </StackPanel>
+    </Grid>
+</Window>
